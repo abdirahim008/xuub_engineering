@@ -351,7 +351,7 @@ export default function HomePage() {
       <header id="home" className="hero-bg" style={{ minHeight: "100vh", display: "flex", flexDirection: "column", justifyContent: "center", padding: "120px clamp(16px,4vw,60px) 100px", position: "relative" }}>
         <HeroSlideshow />
         <div className="topo-pattern" aria-hidden="true" style={{ zIndex: 3 }} />
-        <div style={{ maxWidth: 1200, margin: "0 auto", width: "100%", position: "relative", zIndex: 2 }}>
+        <div style={{ maxWidth: 1200, margin: "0 auto", width: "100%", position: "relative", zIndex: 5 }}>
           <AnimatedSection>
           </AnimatedSection>
 

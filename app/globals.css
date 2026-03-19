@@ -119,6 +119,7 @@ body {
     transparent 0% 50%
   );
   background-size: 60px 60px;
+  pointer-events: none;
 }
 
 /* ───── Shared Components ───── */
