@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     template: "%s | XUUB Engineering Limited",
   },
   description:
-    "XUUB Engineering Limited is a leading multi-disciplinary civil engineering consultancy in Somalia and Kenya. We specialise in road design, water supply, drainage, irrigation, structural engineering, and feasibility studies across the Horn of Africa. Registered in Mogadishu, Kismayo, and Nairobi with World Bank and UNOPS project experience.",
+    "XUUB Engineering Limited is a leading multi-disciplinary civil engineering consultancy in Somalia and Kenya. We specialise in road design, water supply, drainage, irrigation, structural engineering, and feasibility studies across the Horn of Africa. Reach us at xuubengineering@gmail.com.",
   keywords: [
     "civil engineering consultancy Somalia",
     "engineering consultancy Mogadishu",

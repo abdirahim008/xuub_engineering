@@ -632,8 +632,7 @@ export default function HomePage() {
                     { icon: "🏢", label: "Head Office", value: "Mogadishu, Somalia", sub: "Hodan District" },
                     { icon: "🏢", label: "Southern Office", value: "Kismayo, Jubaland State", sub: "Field operations base" },
                     { icon: "🏢", label: "Kenya Office", value: "Nairobi, Kenya", sub: "Regional coordination" },
-                    { icon: "📧", label: "General Enquiries", value: "info@xuubengineering.com", sub: null },
-                    { icon: "📧", label: "Business Development", value: "bids@xuubengineering.com", sub: null },
+                    { icon: "📧", label: "Enquiries", value: "xuubengineering@gmail.com", sub: null },
                     { icon: "📞", label: "Phone", value: "+254 722 232 675 / +252 615 924 574", sub: null },
                   ].map((c, i) => (
                     <div key={i} style={{ display: "flex", alignItems: "flex-start", gap: 16 }}>
@@ -710,8 +709,7 @@ export default function HomePage() {
             <div>
               <h4 style={{ fontSize: 11, textTransform: "uppercase", letterSpacing: 1.5, color: "rgba(255,255,255,0.25)", fontWeight: 700, marginBottom: 14 }}>Connect</h4>
               <address style={{ fontStyle: "normal" }}>
-                <div style={{ fontSize: 13, color: "rgba(255,255,255,0.45)", marginBottom: 8 }}>info@xuubengineering.com</div>
-                <div style={{ fontSize: 13, color: "rgba(255,255,255,0.45)", marginBottom: 8 }}>bids@xuubengineering.com</div>
+                <div style={{ fontSize: 13, color: "rgba(255,255,255,0.45)", marginBottom: 8 }}>xuubengineering@gmail.com</div>
                 <div style={{ fontSize: 13, color: "rgba(255,255,255,0.45)", marginBottom: 8 }}>+254 722 232 675</div>
                 <div style={{ fontSize: 13, color: "rgba(255,255,255,0.45)", marginBottom: 8 }}>+252 615 924 574</div>
               </address>
