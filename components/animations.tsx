@@ -8,12 +8,12 @@ export function AnimatedSection({
   delay = 0,
   as: Tag = "div",
 }: {
-  children: React.ReactNode;
+  children?: React.ReactNode;
   className?: string;
   delay?: number;
   as?: keyof JSX.IntrinsicElements;
 }) {
-  const ref = useRef<HTMLDivElement>(null);
+  const ref = useRef<any>(null);
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -27,8 +27,10 @@ export function AnimatedSection({
     return () => observer.disconnect();
   }, []);
 
+  const Component = Tag as any;
+
   return (
-    <div
+    <Component
       ref={ref}
       className={className}
       style={{
@@ -38,7 +40,7 @@ export function AnimatedSection({
       }}
     >
       {children}
-    </div>
+    </Component>
   );
 }
 

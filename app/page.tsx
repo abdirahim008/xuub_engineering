@@ -352,8 +352,6 @@ export default function HomePage() {
         <HeroSlideshow />
         <div className="topo-pattern" aria-hidden="true" style={{ zIndex: 3 }} />
         <div style={{ maxWidth: 1200, margin: "0 auto", width: "100%", position: "relative", zIndex: 5 }}>
-          <AnimatedSection>
-          </AnimatedSection>
 
           <AnimatedSection delay={0.15}>
             <h1 style={{ fontFamily: "var(--font-display), 'Playfair Display', serif", fontSize: "clamp(38px,6.5vw,70px)", fontWeight: 800, color: "white", lineHeight: 1.05, maxWidth: 850, marginBottom: 24 }}>
