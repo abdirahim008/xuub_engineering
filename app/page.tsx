@@ -634,7 +634,7 @@ export default function HomePage() {
                     { icon: "🏢", label: "Kenya Office", value: "Nairobi, Kenya", sub: "Regional coordination" },
                     { icon: "📧", label: "General Enquiries", value: "info@xuubengineering.com", sub: null },
                     { icon: "📧", label: "Business Development", value: "bids@xuubengineering.com", sub: null },
-                    { icon: "📞", label: "Phone", value: "+252 XX XXX XXXX / +254 XX XXX XXXX", sub: null },
+                    { icon: "📞", label: "Phone", value: "+254 722 232 675 / +252 615 924 574", sub: null },
                   ].map((c, i) => (
                     <div key={i} style={{ display: "flex", alignItems: "flex-start", gap: 16 }}>
                       <div style={{ width: 44, height: 44, borderRadius: 12, background: "rgba(200,164,78,0.08)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 18, flexShrink: 0 }} aria-hidden="true">{c.icon}</div>
@@ -712,8 +712,8 @@ export default function HomePage() {
               <address style={{ fontStyle: "normal" }}>
                 <div style={{ fontSize: 13, color: "rgba(255,255,255,0.45)", marginBottom: 8 }}>info@xuubengineering.com</div>
                 <div style={{ fontSize: 13, color: "rgba(255,255,255,0.45)", marginBottom: 8 }}>bids@xuubengineering.com</div>
-                <div style={{ fontSize: 13, color: "rgba(255,255,255,0.45)", marginBottom: 8 }}>+252 XX XXX XXXX</div>
-                <div style={{ fontSize: 13, color: "rgba(255,255,255,0.45)", marginBottom: 8 }}>+254 XX XXX XXXX</div>
+                <div style={{ fontSize: 13, color: "rgba(255,255,255,0.45)", marginBottom: 8 }}>+254 722 232 675</div>
+                <div style={{ fontSize: 13, color: "rgba(255,255,255,0.45)", marginBottom: 8 }}>+252 615 924 574</div>
               </address>
             </div>
           </div>
